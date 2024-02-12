@@ -1,0 +1,76 @@
+.container {
+    text-align: center;
+    margin: auto;
+    width: 70rem;
+    overflow: auto;
+}
+
+.player {
+    width: 30%;
+    float: left;
+    position: relative;
+    left: 13rem;
+}
+
+.player2 {
+    width: 30%;
+    float: right;
+    position: relative;
+    right: 13rem;
+}
+
+.scoreContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.score {
+    padding: 0 130px;
+    text-align: center;
+}
+
+.btn {
+    font-size: 30px;
+    background: linear-gradient(rgb(255, 0, 51), rgb(0, 183, 255));
+    border: none;
+    border-radius: 100%;
+    width: 10rem;
+    margin: 0px 30px;
+    box-shadow: 4px 4px 5px skyblue;
+}
+
+.btn-container {
+    overflow: auto;
+    clear: both;
+    padding: 10px 0;
+}
+
+img {
+    width: 100%;
+    background: linear-gradient(rgb(255, 0, 51), rgb(0, 183, 255));
+    border-radius: 15px;
+    box-shadow: 4px 4px 5px skyblue;
+}
+
+p {
+    font-size: 3rem;
+    background: linear-gradient(rgb(255, 0, 51), rgb(0, 183, 255));
+    border-radius: 15px;
+    box-shadow: 4px 4px 5px skyblue;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+body {
+    background: linear-gradient(rgb(255, 0, 51), rgb(0, 183, 255));
+}
+
+h2 {
+    font-family: sans-serif;
+    font-size: 3rem;
+}
